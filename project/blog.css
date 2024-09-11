@@ -1,9 +1,13 @@
 .header {
     text-align: center;
+    border: solid 1px rgb(0, 27, 59);
     color: rgb(0, 190, 0);
 }
 .card-header { 
-    text-align: center;
+    margin: auto;
+    border: solid 1px rgb(0, 27, 59);
+    width: fit-content;
+    margin-top: 5px;
     color: rgb(0, 190, 0);
 }
 .card-desc {
@@ -11,15 +15,24 @@
     color: rgb(0, 190, 0);
 }
 .card-img {
+    margin: auto;
     align-items: center;
-    height: 600px;
+    width: 55%;
     display: block;
-    margin: 0 auto;
 }
 .blog1{
+    width: 55vw;
+    margin: auto;
     margin-bottom: 250px;
-}
+    padding: 5px;
+    border: solid 1px rgb(0, 27, 59);
 
+}
+.card-desc{
+    margin: 35px 40px 35px 40px;
+    padding: 5px;
+    border: solid 1px rgb(0, 27, 59);
+}
 body{
     background-color: bisque;
         font-family: "SUSE", sans-serif;
