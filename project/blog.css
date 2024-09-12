@@ -36,8 +36,8 @@ body{
 }
 .blog1{
     position: relative;
-    right: 300px;
-    width: 60vw;
+    right: 375px;
+    width: 55vw;
     margin: auto;
     margin-bottom: 100px;
     padding: 5px;
@@ -45,8 +45,8 @@ body{
 }
 .blog2{
     position: relative;
-    left: 300px;
-    width: 60vw;
+    left:375px;
+    width: 55vw;
     margin: auto;
     margin-bottom: 100px;
     padding: 5px;
@@ -54,8 +54,8 @@ body{
 }
 .blog3{
     position: relative;
-    right: 300px;
-    width: 60vw;
+    right: 375px;
+    width: 55vw;
     margin: auto;
     margin-bottom: 100px;
     padding: 5px;
@@ -64,19 +64,19 @@ body{
 #lettuce {
     position: absolute;
     top: 200px;
-    left: 1200px;
+    left: 1300px;
     height: 350px;
 }
 #water {
     position: absolute;
     top: 150px;
-    right: 1100px;
+    right: 1215px;
     height: 300px;
 }
 #trio {
     position: absolute;
     top: 175px;
-    left: 1150px;
+    left: 1225px;
     height: 350px;
 
 }
