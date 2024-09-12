@@ -1,10 +1,18 @@
+body{
+    background-color: bisque;
+        font-family: "SUSE", sans-serif;
+}
 .header {
-    text-align: center;
-    border: solid 1px rgb(0, 27, 59);
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 3px;
+    border: solid 2px rgb(0, 27, 59);
     color: rgb(0, 190, 0);
 }
 .card-header { 
     margin: auto;
+    padding: 3px;
     border: solid 1px rgb(0, 27, 59);
     width: fit-content;
     margin-top: 5px;
@@ -18,23 +26,57 @@
     margin: auto;
     align-items: center;
     width: 55%;
+    margin-bottom: 10px;
     display: block;
-}
-.blog1{
-    width: 55vw;
-    margin: auto;
-    margin-bottom: 250px;
-    padding: 5px;
-    border: solid 1px rgb(0, 27, 59);
-
 }
 .card-desc{
     margin: 35px 40px 35px 40px;
     padding: 5px;
     border: solid 1px rgb(0, 27, 59);
 }
-body{
-    background-color: bisque;
-        font-family: "SUSE", sans-serif;
+.blog1{
+    position: relative;
+    right: 300px;
+    width: 60vw;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 5px;
+    border: solid 2px rgb(0, 27, 59);
 }
+.blog2{
+    position: relative;
+    left: 300px;
+    width: 60vw;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 5px;
+    border: solid 2px rgb(0, 27, 59);
+}
+.blog3{
+    position: relative;
+    right: 300px;
+    width: 60vw;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 5px;
+    border: solid 2px rgb(0, 27, 59);
+}
+#lettuce {
+    position: absolute;
+    top: 200px;
+    left: 1200px;
+    height: 350px;
+}
+#water {
+    position: absolute;
+    top: 150px;
+    right: 1100px;
+    height: 300px;
+}
+#trio {
+    position: absolute;
+    top: 175px;
+    left: 1150px;
+    height: 350px;
 
+}
